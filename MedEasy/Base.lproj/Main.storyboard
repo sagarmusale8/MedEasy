@@ -162,8 +162,15 @@
                                     <segue destination="w4A-tO-igL" kind="presentation" id="sc3-Ws-YNz"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_ForWhite_Recolor.png" translatesAutoresizingMaskIntoConstraints="NO" id="mau-Qm-mhq">
+                                <rect key="frame" x="218" y="108" width="165" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="0cd-Oo-yBF"/>
+                                    <constraint firstAttribute="width" constant="165" id="SeP-G8-oYQ"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0h8-8Y-EHS">
-                                <rect key="frame" x="206" y="375" width="188" height="38"/>
+                                <rect key="frame" x="206" y="341" width="188" height="38"/>
                                 <color key="backgroundColor" red="0.14117647058823529" green="0.76078431372549016" blue="0.53725490196078429" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="Rac-6w-A8n"/>
@@ -174,16 +181,9 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="doK-vG-vIO" kind="showDetail" id="fFQ-RX-QYP"/>
+                                    <segue destination="doK-vG-vIO" kind="show" id="fFQ-RX-QYP"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_ForWhite_Recolor.png" translatesAutoresizingMaskIntoConstraints="NO" id="mau-Qm-mhq">
-                                <rect key="frame" x="218" y="108" width="165" height="95"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="95" id="0cd-Oo-yBF"/>
-                                    <constraint firstAttribute="width" constant="165" id="SeP-G8-oYQ"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.17647058823529413" green="0.2196078431372549" blue="0.23921568627450981" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -195,7 +195,7 @@
                             <constraint firstItem="QH3-hB-1Qp" firstAttribute="top" secondItem="LGF-9w-Rev" secondAttribute="bottom" id="bcV-hm-bdc"/>
                             <constraint firstAttribute="centerX" secondItem="mau-Qm-mhq" secondAttribute="centerX" id="cZr-LZ-0V1"/>
                             <constraint firstItem="LGF-9w-Rev" firstAttribute="top" secondItem="oVK-eD-ry3" secondAttribute="topMargin" id="lAQ-aP-wow"/>
-                            <constraint firstItem="0h8-8Y-EHS" firstAttribute="top" secondItem="jwn-gN-JbZ" secondAttribute="bottom" constant="60" id="lWd-Iv-Sr7"/>
+                            <constraint firstItem="0h8-8Y-EHS" firstAttribute="top" secondItem="jwn-gN-JbZ" secondAttribute="bottom" constant="26" id="lWd-Iv-Sr7"/>
                             <constraint firstItem="jwn-gN-JbZ" firstAttribute="top" secondItem="13j-wf-itC" secondAttribute="bottom" constant="213" id="qrA-dF-0fA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LGF-9w-Rev" secondAttribute="trailing" constant="-16" id="xK5-qM-8vP"/>
                             <constraint firstAttribute="centerX" secondItem="0h8-8Y-EHS" secondAttribute="centerX" id="zz3-Uk-WdK"/>
@@ -334,11 +334,19 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CommonBg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xh7-6k-GrR">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All info yet to come" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKy-nX-EG8">
+                                <rect key="frame" x="226" y="289" width="148" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerY" secondItem="jKy-nX-EG8" secondAttribute="centerY" id="5Ez-fD-cez"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Xh7-6k-GrR" secondAttribute="trailing" constant="-16" id="GQj-Qp-8iW"/>
                             <constraint firstItem="axA-TX-eIk" firstAttribute="top" secondItem="Xh7-6k-GrR" secondAttribute="bottom" id="Heb-sw-ptV"/>
+                            <constraint firstAttribute="centerX" secondItem="jKy-nX-EG8" secondAttribute="centerX" id="Jej-l9-vhW"/>
                             <constraint firstAttribute="centerX" secondItem="Xh7-6k-GrR" secondAttribute="centerX" id="XlE-Hs-oES"/>
                             <constraint firstItem="Xh7-6k-GrR" firstAttribute="leading" secondItem="8sH-lY-gDn" secondAttribute="leadingMargin" constant="-16" id="eRY-Dz-a0C"/>
                             <constraint firstAttribute="centerY" secondItem="Xh7-6k-GrR" secondAttribute="centerY" id="jS9-xf-eVQ"/>
